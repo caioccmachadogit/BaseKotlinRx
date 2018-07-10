@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="transparentBgTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <!-- MENU NAVIGATION -->
+    <!-- Temas para a Toolbar, ver include_toolbar.xml -->
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorSecondary">@android:color/black</item>
+    </style>
+</resources>

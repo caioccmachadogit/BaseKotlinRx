@@ -1,0 +1,212 @@
+[
+{
+"$id": "2",
+"idMidia": 4,
+"urlMidia": "https://s3-us-west-1.amazonaws.com/imonitore/web/sistema/avatar1_small.jpg",
+"tipoMidia": 1,
+"formatoMidia": 1,
+"identificadorDigital": null,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "3",
+"idMidia": 15947677,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/wsq/30255624808_1_20180321170705.wsq",
+"tipoMidia": 15,
+"formatoMidia": 3,
+"identificadorDigital": 1,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "4",
+"idMidia": 15947678,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/30255624808_1_20180321170705.jpg",
+"tipoMidia": 15,
+"formatoMidia": 1,
+"identificadorDigital": 1,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "5",
+"idMidia": 15947679,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/wsq/30255624808_2_20180321170708.wsq",
+"tipoMidia": 15,
+"formatoMidia": 3,
+"identificadorDigital": 2,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "6",
+"idMidia": 15947680,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/30255624808_2_20180321170708.jpg",
+"tipoMidia": 15,
+"formatoMidia": 1,
+"identificadorDigital": 2,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "7",
+"idMidia": 15947681,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/wsq/30255624808_3_20180321170709.wsq",
+"tipoMidia": 15,
+"formatoMidia": 3,
+"identificadorDigital": 3,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "8",
+"idMidia": 15947682,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/30255624808_3_20180321170709.jpg",
+"tipoMidia": 15,
+"formatoMidia": 1,
+"identificadorDigital": 3,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "9",
+"idMidia": 15947683,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/wsq/30255624808_4_20180321170710.wsq",
+"tipoMidia": 15,
+"formatoMidia": 3,
+"identificadorDigital": 4,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "10",
+"idMidia": 15947684,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/30255624808_4_20180321170710.jpg",
+"tipoMidia": 15,
+"formatoMidia": 1,
+"identificadorDigital": 4,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "11",
+"idMidia": 15947685,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/wsq/30255624808_5_20180321170710.wsq",
+"tipoMidia": 15,
+"formatoMidia": 3,
+"identificadorDigital": 5,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "12",
+"idMidia": 15947686,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/30255624808_5_20180321170710.jpg",
+"tipoMidia": 15,
+"formatoMidia": 1,
+"identificadorDigital": 5,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "13",
+"idMidia": 15947687,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/wsq/30255624808_6_20180321170711.wsq",
+"tipoMidia": 15,
+"formatoMidia": 3,
+"identificadorDigital": 6,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "14",
+"idMidia": 15947688,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/30255624808_6_20180321170711.jpg",
+"tipoMidia": 15,
+"formatoMidia": 1,
+"identificadorDigital": 6,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "15",
+"idMidia": 15947689,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/wsq/30255624808_7_20180321170712.wsq",
+"tipoMidia": 15,
+"formatoMidia": 3,
+"identificadorDigital": 7,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "16",
+"idMidia": 15947690,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/30255624808_7_20180321170712.jpg",
+"tipoMidia": 15,
+"formatoMidia": 1,
+"identificadorDigital": 7,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "17",
+"idMidia": 15947691,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/wsq/30255624808_8_20180321170712.wsq",
+"tipoMidia": 15,
+"formatoMidia": 3,
+"identificadorDigital": 8,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "18",
+"idMidia": 15947692,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/30255624808_8_20180321170712.jpg",
+"tipoMidia": 15,
+"formatoMidia": 1,
+"identificadorDigital": 8,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "19",
+"idMidia": 15947693,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/wsq/30255624808_9_20180321170713.wsq",
+"tipoMidia": 15,
+"formatoMidia": 3,
+"identificadorDigital": 9,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "20",
+"idMidia": 15947694,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/30255624808_9_20180321170713.jpg",
+"tipoMidia": 15,
+"formatoMidia": 1,
+"identificadorDigital": 9,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "21",
+"idMidia": 15947695,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/wsq/30255624808_10_20180321170714.wsq",
+"tipoMidia": 15,
+"formatoMidia": 3,
+"identificadorDigital": 10,
+"identificadorCamera": null,
+"statusMidia": null
+},
+{
+"$id": "22",
+"idMidia": 15947696,
+"urlMidia": "https://s3.amazonaws.com/imntrweb/biometrias/digital/30255624808_10_20180321170714.jpg",
+"tipoMidia": 15,
+"formatoMidia": 1,
+"identificadorDigital": 10,
+"identificadorCamera": null,
+"statusMidia": null
+}
+],

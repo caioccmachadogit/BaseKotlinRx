@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BaseApplicationKotlin</string>
+    <string name="entrar">Entrar</string>
+    <string name="campo_obrigatorio">*Campo obrigatório</string>
+    <string name="login_sucesso">Usuário logado com sucesso</string>
+    <string name="login_error">Usuário não Autenticado!</string>
+    <string name="toolbar_subtitle">subtitulo</string>
+    <string name="toolbar_nome_app">nome app</string>
+    <string name="dialog_loading">Carregando...</string>
+</resources>

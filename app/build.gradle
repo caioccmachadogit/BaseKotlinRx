@@ -1,0 +1,97 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    flavorDimensions "default"
+
+    defaultConfig {
+        applicationId "base.imonitore.com.br.baseapplicationkotlin"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    productFlavors {
+        appDesenv {
+            versionNameSuffix 'D'
+        }
+        appTeste {
+            versionNameSuffix 'T'
+        }
+        appProd{
+            versionNameSuffix ''
+        }
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "iMonitoreBaseKotlin_v${variant.versionName}.apk"
+        }
+    }
+}
+
+dependencies {
+//    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$rootProject.kotlinVersion"
+
+    implementation "org.jetbrains.anko:anko-commons:0.10.0"
+    implementation "org.jetbrains.anko:anko-sdk19:0.10.0"
+    implementation "org.jetbrains.anko:anko-appcompat-v7:0.10.0"
+
+    implementation "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
+    implementation "com.android.support:design:$rootProject.supportLibraryVersion"
+    implementation "com.android.support:recyclerview-v7:$rootProject.supportLibraryVersion"
+    implementation "com.android.support:support-vector-drawable:$rootProject.supportLibraryVersion"
+
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofit2Version"
+    implementation "com.squareup.retrofit2:converter-gson:$rootProject.retrofit2Version"
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+
+    implementation "android.arch.persistence.room:runtime:$rootProject.persistenceRoomVersion"
+    kapt "android.arch.persistence.room:compiler:$rootProject.persistenceRoomVersion"
+    implementation "android.arch.persistence.room:rxjava2:$rootProject.persistenceRoomVersion"
+
+    debugImplementation 'com.awesomedroidapps:inappstoragereader:1.0.2'
+
+    implementation "com.google.dagger:dagger:$rootProject.daggerVersion"
+    kapt "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
+
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.10'
+
+    implementation "android.arch.lifecycle:runtime:1.1.1"
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+    kapt "android.arch.lifecycle:compiler:$rootProject.persistenceRoomVersion"
+
+    implementation 'com.google.firebase:firebase-config:11.4.2'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}

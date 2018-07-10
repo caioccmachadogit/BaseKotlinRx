@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <!-- Bloco 1: Conteúdo da Tela -->
+    <LinearLayout
+        android:background="@color/colorWhite"
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_toolbar" />
+
+        <!-- Conteúdo: layout de marcação para fragments -->
+        <!--<FrameLayout-->
+        <!--android:id="@+id/container"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+        <!-- Conteúdo: layout de marcação para fragments -->
+
+        <!-- Conteúdo: layout de marcação para Linear -->
+        <LinearLayout
+            android:background="@color/colorWhite"
+            android:id="@+id/content_view"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <!-- Conteúdo: layout de marcação para Linear -->
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
